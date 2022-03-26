@@ -9,6 +9,7 @@
     background-image: url("./Images/Header Background.jpeg");
     background-size:cover ;
     background-repeat: no-repeat;
+    border: 3px solid green;
 }
 
 
@@ -37,7 +38,8 @@
 .header div ul li {
     display: inline-flex;
     color: greenyellow;
-    padding-left: 20px;
+    padding: 10px;
+    background-color: bisque;
 }
 
 .mainpicture {
@@ -48,6 +50,7 @@
     background-image: url("./Images/Me.jpeg");
     background-size: cover;
     background-position: center;
+    border: 3px solid green;
 }
 
 .mainpicture div {
@@ -136,3 +139,17 @@
 .Work-Experience p {
     font-size: 25px;
 }
+.Work-Experience a img {
+    border: 3px solid green;
+    display:flex;
+    flex-wrap: wrap;
+    float: left;
+    margin: 20px ;
+    padding: 10px ;
+}
+@media only screen and (max-width: 1000px) {
+    .Work-Experience a img {
+        width: 40%;
+        height: auto ;
+    }
+  }
