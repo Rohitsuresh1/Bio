@@ -1,0 +1,155 @@
+.header {
+    padding: 5px;
+    font-size: 55px;
+    display: flex;
+    text-align: left;
+    padding-left: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-image: url("./Images/Header Background.jpeg");
+    background-size:cover ;
+    background-repeat: no-repeat;
+    border: 3px solid green;
+}
+
+
+.header h1 {
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+    text-align: left;
+}
+
+.header div {
+    padding-top: 50px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    display: flex;
+    color: greenyellow;
+    flex-wrap: wrap;
+}
+
+.header div ul {
+    list-style-type: none;
+}
+
+.header div ul li {
+    display: inline-flex;
+    color: greenyellow;
+    padding: 10px;
+    background-color: bisque;
+}
+
+.mainpicture {
+    height: 800px;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    background-image: url("./Images/Me.jpeg");
+    background-size: cover;
+    background-position: center;
+    border: 3px solid green;
+}
+
+.mainpicture div {
+    padding-left: 20px;
+    max-width: 500px;
+    font-size: 45px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.Home h1 {
+    font-size: 50 px;
+    padding-top: 20px;
+    background-color: aquamarine;
+    height: 60px;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    border: 3px solid green;
+}
+
+.Home p {
+    font-size: 25px;
+    padding-left: 10px;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 49% 49% ;
+    column-gap: 33px;
+}
+
+.Projects h1 {
+    float: left;
+    font-size: 50 px;
+    padding-top: 20px;
+    width: 100%;
+    margin-top: 4px;
+    background-color: aquamarine;
+    height: 60px;
+    text-align: center;
+    border: 3px solid green;
+}
+
+.Projects h5 {
+    font-size: 20px;
+    padding-inline-start: 10px;
+    text-align: Left;
+}
+.Projects a {
+    position: absolute;
+    font-size: 20px;
+    margin-left: -30px;
+    margin-top: -15px;
+    
+}
+
+.Contact h1{
+    float: right;
+    font-size: 50 px;
+    padding-top: 20px;
+    background-color: aquamarine;
+    height: 60px;
+    width: 100%;
+    text-align: center;
+    border: 3px solid green;
+}
+.Contact h2 {
+    padding-left: 10px;
+    font-size: 20px;
+}
+.Contact a {
+    padding-left: 10px;
+    font-size: 20px;
+}
+.Work-Experience h1{
+    font-size: 50 px;
+    padding-top: 20px;
+    background-color: aquamarine;
+    height: 60px;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    border: 3px solid green;
+}
+.Work-Experience p {
+    font-size: 25px;
+}
+.Work-Experience a img {
+    border: 3px solid green;
+    display:flex;
+    flex-wrap: wrap;
+    float: left;
+    margin: 20px ;
+    padding: 10px ;
+}
+@media only screen and (max-width: 1000px) {
+    .Work-Experience a img {
+        width: 40%;
+        height: auto ;
+    }
+  }
